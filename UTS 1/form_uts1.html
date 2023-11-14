@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM REGISTRASI TEMPAT REKREASI WISATA</title>
+    <style>
+     body{
+        font-family: Arial, Helvetica, sans-serif;
+     }
+     .form1{
+        padding: 30px;
+        width: 700px;
+        margin: 100px auto;
+        }
+    label{
+        margin-bottom: 10px;
+          display: inline-block;
+          width: 250px;
+          text-align: right;
+    }
+
+    .form{
+        margin-bottom: 10px;
+    }
+    .form2{ 
+        text-align: center;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="form1">
+    <fieldset>
+        <legend>
+            <h3>Form Registrasi Tempat Rekreasi Wisata</h3>
+        </legend>
+    <div class="form">
+        <label for="nama Tempat">Nama Tempat Wisata :</label>
+       <textarea name="nama Tempat" id="nama Tempat" cols="35" rows="1"></textarea>
+    </div>
+    <div class="form">
+        <label for="Jenis Wisata">Jenis Wisata :</label>
+        <select name="Jenis Wisata" id="Jenis Wisata">
+            <option value="Pantai"> </option>
+            <option value="Pantai">Wisata Pantai</option>
+            <option value="Cagar alam">Wisata Cagar Alam</option>
+            <option value="kuliner">Wisata kuliner</option>
+        </select>
+    </div>
+    <div class="form">
+        <label for="Deskripsi Wisata">Deskripsi Wisata :</label>
+        <textarea name="Deskripsi Wisata" id="Deskripsi Wisata" cols="35" rows="3"></textarea>
+    </div>
+    <div class="form">
+        <label for="KOntak">Kontak Person :</label>
+        <input type="text" id="KOntak">
+    </div>
+    <div class="form">
+        <label for="Telephone">No.Hp/Telephone :</label>
+        <input type="number" id="Telephone">
+    </div>
+    <div class="form">
+        <label for="email">Email :</label>
+        <input type="email" id="email">
+    </div>
+    <div class="form">
+        <label for="alamat web">Alamat Web :</label>
+        <input type="search" id="alamat web">
+    </div>
+    <div class="form">
+        <label for="alamat lengkap">Alamat Lengkap :</label>
+        <textarea name="alamat lengkap" id="alamat lengkap" cols="35" rows="2"></textarea>
+    </div>
+    <div class="form">
+        <label for="latitude">Latitude,langitude :</label>
+        <input type="text" id="latitude">
+    </div>
+    <div class="form2">
+        <input  type="submit" value="Simpan">
+        <input  type="reset" value="Batal">
+    </div>
+
+    </fieldset>
+</div>
+</body>
+</html>
