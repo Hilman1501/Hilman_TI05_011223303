@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File flexbox</title>
+    <style>
+    *{
+        margin: 0;
+    }
+    header{
+        background-color: aqua;
+    }
+    article{
+        background-color: aliceblue;
+        width: 75%;
+    }
+    aside{
+        background-color: yellow;
+        width: 25%;
+    }
+    footer{
+        background-color: aqua;
+        
+    }
+    header, article, aside, nav, footer{
+        padding: 2rem;
+        
+    }
+    .content{
+        display: flex;
+       height: 70vh;
+    }
+    nav{
+        background-color: violet;
+        float: left;
+        width: 15%;
+        height: 92vh;
+    }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <nav>
+          <h2>nav</h2> 
+        </nav>
+    <div class="container">
+        <header>
+            <h2>Header</h2>
+        </header>
+        <div class="content">
+            <article>
+                <h2>Artikel</h2>
+            </article>
+            <aside>
+                <h2>Aside</h2>
+            </aside>
+           
+        </div>
+        <footer>
+            <h2>Footer</h2>
+        </footer>
+    </div>
+</div>
+</body>
+</html>
